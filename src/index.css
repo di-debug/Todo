@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+  outline: none;
+}
+input,textarea{
+  background-color: #f6f6f6;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+input::placeholder,
+textarea::placeholder,input[type="date"] {
+  color: #000; 
+}
+
+body{
+  background-color: #191923;
+}
+
+#taskList::-webkit-scrollbar, #scroll::-webkit-scrollbar{
+  display: none;
+}
+
